@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_large"
+    android:gravity="center"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <!-- Titre -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/margin_medium" />
+
+    <!-- Nombres aléatoires -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin_medium">
+
+        <TextView
+            android:id="@+id/number1TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_large"
+            android:gravity="center"
+            android:text="111" />
+
+        <TextView
+            android:id="@+id/number2TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_large"
+            android:gravity="center"
+            android:text="999" />
+    </LinearLayout>
+
+    <!-- Boutons opérations -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin_medium">
+
+        <Button
+            android:id="@+id/plusButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/plus"
+            android:layout_marginEnd="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/minusButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/minus"
+            android:layout_marginEnd="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/multiplyButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/multiply" />
+    </LinearLayout>
+
+    <!-- Saisie de la réponse -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Votre réponse :"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginBottom="@dimen/margin_small" />
+
+    <EditText
+        android:id="@+id/answerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:hint="Entrez votre réponse"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:padding="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium" />
+
+    <!-- Bouton Vérifier -->
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="Vérifier"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/margin_medium" />
+
+    <!-- Feedback (correct / faux) -->
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:gravity="center"
+        android:text=""
+        android:layout_marginBottom="@dimen/margin_medium" />
+
+    <!-- Bouton Générer -->
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/generate"
+        android:backgroundTint="@color/accent"
+        android:textColor="@color/white" />
+
+</LinearLayout>
