@@ -55,3 +55,6 @@ Module : Développement Mobile – GINF3
 ---
 
 > 🚀 *Ce projet démontre une bonne maîtrise des bases du développement Android : gestion des vues, événements, ressources XML, et logique métier en Java.*
+<img width="926" height="909" alt="image" src="https://github.com/user-attachments/assets/96983b49-e0e6-4417-9b79-7dcd8a056415" />
+
+
