@@ -77,19 +77,23 @@ app/
 
 ## 📸 Captures d’écran
 
-![Liste des notes](screenshots/liste_notes.png)  
+<img width="365" height="613" alt="image" src="https://github.com/user-attachments/assets/77f11011-337e-403b-84d2-e8337c467979" />
+
 *Liste avec couleurs par priorité*
 
-![Formulaire d'ajout](screenshots/formulaire.png)  
+<img width="360" height="620" alt="image" src="https://github.com/user-attachments/assets/d9a76fca-d837-46fb-926c-fd7c1b1d59ea" />
+
 *Formulaire complet avec priorité*
 
-![Détail d'une note](screenshots/detail_note.png)  
+<img width="350" height="817" alt="image" src="https://github.com/user-attachments/assets/b13c97ca-76dd-4d65-a7da-ca0e91642581" />
+
 *Affichage des attributs complets*
 
-![Caméra & Galerie](screenshots/camera_galerie.png)  
+<img width="370" height="298" alt="image" src="https://github.com/user-attachments/assets/c5923103-2d26-42aa-9dca-2b77b5a2eafe" />
+
 *Capture photo + galerie*
 
-> *(Les captures réelles doivent être ajoutées dans un dossier `screenshots/`)*
+
 
 ---
 
